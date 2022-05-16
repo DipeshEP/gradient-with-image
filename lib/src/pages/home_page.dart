@@ -7,7 +7,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(children: [
-        SizedBox(
+        Container(
           width: double.infinity,
             height: double.infinity,
             child: FittedBox(
