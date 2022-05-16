@@ -8,7 +8,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Gradient color"),
-       // centerTitle: true,
+        centerTitle: true,
       ),
       body: Stack(children: [
         SizedBox(
