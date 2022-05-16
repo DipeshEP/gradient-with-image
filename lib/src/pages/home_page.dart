@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
@@ -8,7 +7,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Gradient color"),
-       // centerTitle: true,
+        centerTitle: true,
       ),
       body: Stack(children: [
         SizedBox(
