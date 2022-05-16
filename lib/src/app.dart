@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Gradient Color',
+      title: 'Gradient',
       theme: ThemeData(
         primaryColor: const Color(0xffff0e35),
         primarySwatch: Colors.red,
