@@ -6,6 +6,10 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Gradient color"),
+        centerTitle: true,
+      ),
       body: Stack(children: [
         SizedBox(
           width: double.infinity,
