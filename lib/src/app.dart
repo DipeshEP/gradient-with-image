@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Gradient',
       theme: ThemeData(
-
-        primarySwatch: Colors.blue,
+        primaryColor: const Color(0xffff0e35),
+        primarySwatch: Colors.red,
       ),
       home: const MyHomePage(),
     );
